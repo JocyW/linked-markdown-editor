@@ -1,11 +1,13 @@
 .editor{
   display: flex;
   justify-content: stretch;
-  height: 100vh;
+  height: calc(100vh - 36px);
+  overflow-y: hidden;
 
   & > * {
     flex-basis: 50%;
     height: 100%;
+    overflow: auto;
   }
   .keywords{
     flex-basis: 10%;

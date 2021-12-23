@@ -1,22 +1,16 @@
-import React, {ChangeEventHandler, KeyboardEventHandler} from 'react';
+import React from 'react';
 import AceEditor from "react-ace";
 
 
 import "ace-builds/src-noconflict/mode-markdown";
 import "ace-builds/src-noconflict/theme-github";
 import "ace-builds/src-noconflict/ext-language_tools";
+import {getAllKeywords} from "../../save/localStorage";
 
 export default (props: {onChangeCallback: (value: string) => void, value: string}) => {
-
-    const keywords = Object.keys(localStorage).map((key) => {
-        const split = key.split(':');
-        if(Array.isArray(split) && split[0] === 'keyword') return split[1]
-        return null;
-    }).filter((val) => !!val);
-
     const staticWordCompleter = {
         getCompletions: function(editor:any, session:any, pos:any, prefix:any, callback:any) {
-            callback(null, keywords.map(function(word) {
+            callback(null, getAllKeywords().map(function(word) {
                 return {
                     caption: `$${word}`,
                     value: `$${word}`,
@@ -33,7 +27,7 @@ export default (props: {onChangeCallback: (value: string) => void, value: string
         onChange={props.onChangeCallback}
         value={props.value}
         name="editor"
-        style={({height: '100%'})}
+        style={({height: '100%', 'overflowY': 'hidden'})}
         enableLiveAutocompletion={true}
         editorProps={
             ({

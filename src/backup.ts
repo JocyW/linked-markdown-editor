@@ -1,0 +1,43 @@
+export default {"file:DnD 08.11.21": "# 8.11.21\n\n$Torius\n- Motiviere Stadt zu den Waffen zu greifen\n- Nehme Kontakt zu $Galavarius auf\n    - \"Es ist nur ein Abbild, ein Stück von ihm\"\n    - \"Ich habe euch ein mal geholfen und es hat mich fast umgebracht\"\n- lernen Raymond $Lightsong kennen\n- Sprechen mit $Paelior\n    - Name schon gehört\n    - Will die Stadt verschonen, wenn er mich bekommt\n    - Kopie von $Balauhl\n    \n---  \nOff-Game: Namen der letzten imperialen Abenteurer:\n- Theresa $Sayesmoon - noch nie gehört\n- $Arthur Dandellion\n- Fiona Greenstalker ($Imperatorin)\n- Evurahim $Ressouri\n- $Paelior Windchild - (nie gesehen)\n- Raymond $Lightsong\n\n--- \n\n- Sehen Schlangenfrau mit dunklem Umhang\n- Gehen durch eine alte Mine hinter die gegnerischen Reihen\n\n#### Notiz an mich: Habe noch Hex aktiv",
+
+"file:DnD 13.12.21": "# 13.12.21\n\n- Springen durch das Portal\n- Kommen auf einer Steinplatte an mit drei $Arkanum-Steinen\n    - Haben \"ungesunde\" türkise Farbe\n- Dämonen scheinen Anführer*in zu haben - \"oben\"\n    - In Form einer Wolke\n- $Hymir macht meele-Angriff auf Pylon\n    - Pylon verliert Splitter - kein DMG an $Hymir\n- Sehen Bild aus unserer Welt - in Wolke\n    - $Mercurio erkennt $Feldron\n    - Leichen in $Feldron\n    - Sehen $Imperatorin, $Lightsong und $Arthur\n- $Elyra death saves \n    - + [ ] [ ] [ ]\n    - - [x] [ ] [ ]\n    - Gehealed von $Mercurio\n- 3 Personen in Wolke\n    - Wir erkennen $Balauhl + 2 Kopien von ihm\n    - Gehen auf $Arthur zu\n    - zwei Verwandeln sich in dämonische Form\n    - dritter: älterer, kantiger Mann \n    - Bei Beginn des Fights zwischen $Arthur und $Balauhl\n-> Wolke verschwindet\n- Dämon stürzt sich von der Plattform\n- $Hymir peitscht $Arkanum-Pylon aus\n- $Hymir: \"Die Steine stehen drauf geschlagen zu werden\"\n\n--- \n\n- $Mercurio: sind wahrscheinlich im $Abyss\n- $Durchfall, $Elyra und Ich: **Sind beschützt von Untoten für einen Tag**\n    - Alle anderen ($Hymir, $Eolynn, $Elmon, $Mercurio): **sind taub**\n- **Für den nächsten Tag bekommen wir einen \nW6 zusätzlich auf Ability-Checks**\n    - $Mercurio, $Durchfall, $Elyra, ich\n- $Hymir down von Fireball ($Arkanum-Pylonen)\n    - $Durchfall hebt $Hymir auf\n- $Eolynn zerstört Pylon\n- $Elyra, $Hymir, $Mercurio : Sind in der Mitte eines Silence-Spells\n- $Eolynn, $Durchfall und ich: **Können nichts riechen**\n- Gehen weg vom Portal\n- Stehe in 60ft Reichweite von einem Pylon\n- $Mercurio, $Elyra, Ich: **Können nur noch mit Tieren sprechen (24h)**\n- $Hymir, $Eolynn, $Elmon: **Arme werden zu Tentakeln für 1min.**\n- $Durchfall: Wenn du in den nächsten 5min stirbst: Geist\n- Schwarzes Loch um zweiter Pylon\n- $Hymir: **Bekommst einen 3ft langen Schwanz (1h)**\n- $Mercurio,$Elmon: Alle Sorcery Points werden aufgefüllt\n- $Elyra, $Eolynn, $Durchfall, ich: Haben andere Stimmen\n- $Hymir, $Durchfall: Fog Cloud um die beiden\n- $Mercurio: **40ft Umkreis(alle): Vulerable zu Piercing (1min)**\n- $Elyra: **Haut wird leuchtend-blau**\n- $Hymir, $Mercurio: Spell splot back\n- $Elyra: **+5 Heiung am Anfang jeder Runde (1min)**\n- $Durchfall: **ist so groß wie $Eolynn (1min.)**\n- $Elyra: **Linkes Auge ist weg - Sapphir stattdessen**\n- $Mercurio, $Durchfall: Komplett haarlos - wächst nach in 24h\n- $Durchfall, $Mercurio: Spell-slot back\n- $Elyra: Klamotten werden unbequem eng\n###$Durchfall: **Ist $Hymir** (Wish-Spell artig)\n- $Elyra: **Ist in einem Kristall gefangen**\n\n---\n\n- $Elmon versucht den Stein in den $Feywald zu benutzen\n    - Benutzt den Stein erfolgreich\n    - Verlassen das $Abyss\n    - Schlagen in einer Stadt auf\n        - Es ist warm\n        - komische Sternbilder\n- Häuser sind schief gebaut\n- Müll in einer Kiste\n- Diffuse Lichtquelle - keine Sonne\n- Sehen einen Halbling\n    - Kunden sind gehörnte Wesen (Teufel)\n- Sehen einen Menschen mit Narben im Gesicht\n- Sind sehr klein neben anderen Wesen\n- $Kink ist genauso groß wie $Elmon\n    - \"Wir sind zuhause\"\n- $Kink spricht mit $Eolynn\n    - Wir sind in $Avernus in der $Hölle\n- $Kink ist ein Teufel\n    - \"Muss einige Kontakte knüpfen\"\n- $Kink geht in Bar\n- $Hymir erfährt, dass er Taub ist\n- Barkeeper ist ein Teufel\n- $Kink kauft \"Das Wasser des Königin\"\n    - Mega geiles Zeug  \n    - Kaufen die Flasche für 85G\n    - Identify: Aqua Regia\n  \n**Alkohollevel: 3/10**\n- $Hymir, $Mercurio, $Elmon können wieder hören\n- $Elmon versucht mich nicht an den Alkohol kommen zu lassen\n- $Kink sagt wir sollen nur 2/3G pro Kopf bezahlen sollen\n- $Elmon fragt den Barkeeper nach Zimmern\n- $Elmon kauft Zimmer für 8G pro Zimmer pro Person\n- $Mercurio castet Alarm auf beide Zimmer\n\n\n\n\n",
+
+"file:DnD 25.10.21": "#25.10.21\n\n- Fight mit dickem Vieh\n- 103 DMG runde von $Hymir \n- Viech tot in unter 2 Runden\n- $Mercurio wird von Münze verflucht\n- Gehen aus Nebel raus\n    - Mercurio wieder fit\n- Kommen im Osten raus\n- Kommen im Lager an\n- $Durchfall bei Fausti v2\n\n--- \n\n- Imperiale Faust trifft Vorkehrungen für Angriff\n- $Durchfall pinkelt in Bag of Holding\n\n--- \n\nReden mit Fausti $Esseroi\n- Papa irgendwie \"besorgt\"\n    - Unterstützt vielleicht bei Kampf\n- Bekannte von früher kommt auch\n    - Kein einfacher Umgang\n- Finden sich gut vorbereitet für die Schlacht\n\nWill mit $Galavarius reden -> nächste Session \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+
+"file:DnD 27.09.21": "# 27.09.21\n\n- Lege mich auf den Boden und schlafe\n- Gehen zur $Abenteurergilde\n    - Bekommen nur 4.500 von 10.000 Gold\n\n--- \nBekomme ich nicht mit  \n$Durchfall malt Teleportzirkel ab\n  \n$Elmon und $Mercurio in der Bib \n- Imperiale Abenteurer nicht gut angesehen\n- Mieten sich einen Studienraum\n- Es gibt Bücher die sie nicht lesen dürfen\n- $Mercurio fragt nach \"Deck of Many Things\"\n    - Ist nur eine Legende\n- Imperiale $Abenteurer haben Stadt eingenommen mit Gewalt\n    - Haben Imperatorin getötet\n    - $Imperatorin ist eine ehemalige Abenteurerin\n\n--- ",
+
+"keyword:Abenteurer": "# Imperiale Abenteurer \n\n- Vor uns hat es bereits eine Gruppe gegeben\n- Die Gruppe hat die letzte Im",
+
+"keyword:Abenteurergilde": "# Abenteurergilde\n\n- Haben das letzte mal nur 4.500 von 10.000 Gold bekommen",
+
+"keyword:Arkanum": "# Arkanum\n\n\n- Haben rohes Arkanum in der $Underworld unter $Feldron gesehen\n- $Arkanum Pylonen haben auch Energie für Illusion von $Balauhl-Kopie \ngeliefert\n- Liefert Energie für Portal",
+
+"keyword:Arthur": "# Imperiale Faust Arthur Dandellion\n\n- aka. Papa Fausti\n- einer der Grüder des $Imperium|s\n- Wahrscheinlich tot\n\n--- \n### See Also\n$Esseroi ",
+
+"keyword:Balauhl": "# Bal 'a 'uhl \n\n### Generelles\n- Superbösewicht der Story\n\n\n### Begegnungen\n08.11.21: Kopie vor [Stadtname vergessen getroffen]  \n13.12.221: Sehen ihm in Kontakt mit $Arthur in der $Zitadelle in $Feldron  \n",
+
+"keyword:Durchfall": "# Durchfall",
+
+"keyword:Elmon": "# Elmon",
+
+"keyword:Esseroi": "# Imperiale Faust Esseroi\n\nHaben wir im Stützpunkt am Nebel gesehen  \nIst mit $Arthur befreundet",
+
+"keyword:Galavariel": "# Galavariel\n\n- Mein Celestial\n- Auch der Celestial von $Arthur\n- \n",
+
+"keyword:Hymir": "# Hymir\n\n",
+
+"keyword:Imperatorin": "# Imperatorin\n\n### Generelles\n- Bürgerlicher Name: Fiona Greenstalker\n- War imperatorische Abenteurerin\n- Geschichte der Machtübernahme unbekannt",
+
+"keyword:Imperium": "# Das Imperium\n\n- Vorherrschende Regierungsart im Kontinent wo wir leben\n- Geherrscht von der $Imperatorin",
+
+"keyword:Kink": "# Kink\n\n- Ist ein Teufel\n- Hat eigentlich einen anderen Namen\n    - Will seinen Namen ungerne einfach so weg geben\n- Ist in der Hölle zuhause\n\n---\n\n### See also\n$Hölle",
+
+"keyword:Lightsong": "# Raymond Lightsong\n\n### Grundlegendes\naka. Imerialer Staff\n- Es gibt mehrere Imeriale Fäuste, nur einen imperialen Staff\n\n### Persönliches\n- Bekannter meines Vaters\n\n### Begegnungen\n8.11.21: Haben ihn als Illusion vor [Stadtname vergessen gesehen]\n\n--- \n## See also\n$Imperium $Arthur",
+
+"keyword:Mercurio": "# Mercurio",
+
+"keyword:Omaraculus": "# Omaraculus\n\n\n$Hymir|s Schwert sucht diese Person ",
+
+"keyword:Paelior": "# Paelior Windchild\n\n### Generelles\n- Einer der imperatoren Abenteurern \n- eventuell $Balauhl\n\n### Begegnungen\n8.11.21: $Lightsong sagt den Namen als wir mit $Balauhl-Kopie reden",
+
+"keyword:Torius": "# Torius Haversporn\n\n### Grundlegendes\n- Hält sich für den größten - setzt sich gerne in Szene\n- Ist reich\n- nicht gemocht von $Lightsong\n\n### Begegnungen\n- Hatte Kommando über Legion zur Verteidigung von \n[Name der Stadt vergessen]\n"}
