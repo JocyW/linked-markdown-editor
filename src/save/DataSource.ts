@@ -6,6 +6,7 @@ export interface DataSource {
     get(id: string): Promise<File>
     findByKeyword(keyword: string): Promise<File[]>
     findByName(name: string): Promise<File[]>
+    getAllKeywords(): Promise<String[]>
 }
 
 export const activeDataSource = ApiDataSource;

@@ -10,6 +10,7 @@ export const Tabbar = ({
                            onSearchChanged,
                            suggestionFiles,
                            onSuggestionClick,
+                            onCloseClick
                        }:
                            {
                                files: File[],
@@ -18,7 +19,8 @@ export const Tabbar = ({
                                onAddFileClick: () => void,
                                onSearchChanged: (search: string) => void,
                                suggestionFiles: File[],
-                               onSuggestionClick: (file: File) => void
+                               onSuggestionClick: (file: File) => void,
+                               onCloseClick: (file: File) => void
                            }) => {
 
     let tabs: JSX.Element[] = [];
@@ -26,14 +28,18 @@ export const Tabbar = ({
     const inputRef = useRef()as React.MutableRefObject<HTMLInputElement>;
 
     files.forEach((file) => {
-        tabs.push(<div
+        tabs.push(
+            <div className="tab-wrapper">
+                <div className="close" onClick={() => {onCloseClick(file)}}>&times;</div>
+            <div
             key={file._id}
             onClick={() => {
                 onFileClick(file)
             }}
             className={"tab " + (selectedFileId === file._id ? 'selected' : '')}>
             {file.name}
-        </div>)
+        </div>
+            </div>)
     });
 
     return <div className={"bar"}>

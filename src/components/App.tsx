@@ -43,7 +43,20 @@ function App() {
         activeDataSource.findByName(searchString).then((files) => {
             setSuggestionFiles(files);
         })
-    }, [setSuggestionFiles])
+    }, [setSuggestionFiles]);
+
+    const closeClickCallback = useCallback((cbFile) => {
+        setOpenFiles((prevState => {
+            const copied = [...prevState];
+            const index = copied.findIndex((item) => item._id === cbFile._id)
+            copied.splice(index);
+            if(cbFile._id === file._id){
+                setFile(copied[copied.length - 1]);
+            }
+
+            return copied;
+        }))
+    },[setOpenFiles,setFile,file])
 
     useEffect(() => {
         const path = window.location.pathname.split('/');
@@ -75,7 +88,7 @@ function App() {
     return <div className={'page'}>
         <Tabbar onAddFileClick={addFileClickCallback} onFileClick={tabClickCallback} files={openFiles}
                 selectedFileId={file._id} onSearchChanged={searchChangedCallback} suggestionFiles={suggestionFiles}
-                onSuggestionClick={addFileToOpenFiles}/>
+                onSuggestionClick={addFileToOpenFiles} onCloseClick={closeClickCallback}/>
         {pages[page]}
     </div>
 }

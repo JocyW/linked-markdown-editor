@@ -14,6 +14,7 @@
 
     input {
       padding: 0 0.5rem;
+      background-color: #f9f9f9;
       border: 1px solid #efefef;
       border-radius: 4px;
       min-height: 2rem;
@@ -49,17 +50,31 @@
 
   .tabs {
     display: flex;
+    column-gap: 0.5rem;
 
-    .tab {
-      border-bottom: 1px solid transparent;
+    & > * {
       padding: .5rem;
       border-radius: 4px;
       cursor: pointer;
-
       &:hover {
         background-color: #efefef;
       }
+    }
 
+    .close{
+      padding-right: 0.25rem;
+      &:hover{
+        color: #ec0000;
+        font-weight: bold;
+      }
+    }
+
+    .tab-wrapper{
+      display: flex;
+      align-items: baseline;
+    }
+
+    .tab {
       &.selected {
         font-weight: bold;
       }

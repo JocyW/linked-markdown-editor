@@ -5,19 +5,20 @@ import AceEditor from "react-ace";
 import "ace-builds/src-noconflict/mode-markdown";
 import "ace-builds/src-noconflict/theme-github";
 import "ace-builds/src-noconflict/ext-language_tools";
-import {getAllKeywords} from "../../save/localStorage";
+import {activeDataSource} from "../../save/DataSource";
 
 export default (props: {onChangeCallback: (value: string) => void, value: string}) => {
     const staticWordCompleter = {
         getCompletions: function(editor:any, session:any, pos:any, prefix:any, callback:any) {
-            callback(null, getAllKeywords().map(function(word) {
-                return {
-                    caption: `$${word}`,
-                    value: `$${word}`,
-                    meta: "keyword"
-                };
-            }));
-
+            activeDataSource.getAllKeywords().then((keywords) => {
+                callback(null,keywords.map(function(word) {
+                    return {
+                        caption: `$${word}`,
+                        value: `$(${word})`,
+                        meta: "keyword"
+                    };
+                }))
+            })
         }
     }
 

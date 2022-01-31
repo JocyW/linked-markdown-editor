@@ -1,6 +1,7 @@
 import {File, FileTypes} from "../models/File";
 import {DataSource} from "./DataSource";
 import axios from "axios";
+import {getKeywords} from "../components/Editor/transform/keywords";
 
 const API_BASE_URL = 'http://localhost:4000/api';
 
@@ -9,6 +10,12 @@ export const axiosInstance = axios.create({
 })
 
 export class ApiDataSource implements DataSource {
+    static instance: DataSource;
+
+    static getInstance() {
+        if (ApiDataSource.instance) return ApiDataSource.instance;
+        return ApiDataSource.instance = new ApiDataSource();
+    }
 
     async get(id: string): Promise<File> {
         if (!id) return new File()
@@ -51,11 +58,15 @@ export class ApiDataSource implements DataSource {
         }
     }
 
-    static instance: DataSource;
+    async getAllKeywords(): Promise<String[]> {
+        const keywords = new Set<string>();
+        const {data} = await axiosInstance.get<{data: File[]}>('/files');
 
-    static getInstance() {
-        if (ApiDataSource.instance) return ApiDataSource.instance;
-        return ApiDataSource.instance = new ApiDataSource();
+        for(let {text} of data.data){
+            getKeywords(text).forEach((item) => keywords.add(item));
+        }
+
+        return Array.from(keywords);
     }
 
 }

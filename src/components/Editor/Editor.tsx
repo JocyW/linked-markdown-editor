@@ -19,7 +19,7 @@ export default (props: { file: File, onKeywordClick: (keyword: string) => void }
     const debouncedChange = useCallback(debounce((text) => {
         props.file.text = text;
         activeDataSource.save(props.file)
-    }, 1000), [props.file]);
+    }, 2000), [props.file]);
 
     const changeEventCallback = useCallback((text) => {
         setRaw(text);
